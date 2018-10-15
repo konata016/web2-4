@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+body{
+    background-color:brown;
+}
+
+#メイン {
+    width: 960px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: green 1px solid;
+    background-color: burlywood;
+}
+
+.画像{
+    float: left;
+    margin-right:30px;
+}
+
+.サイズを合わせるやつ{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.文字をきれいに揃える{
+    float: left;
+    width: 468px;
+}
+
+dt {
+    clear: left;
+    float: left;
+    font-weight: bold;
+}
+
+.ボタン {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    margin: 5px;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+    .ボタン:hover {
+        opacity: 0.7;
+    }
+    .ボタン:active {
+        color: white;
+    }
+
+.ボタン_灰色 {
+    background-color: silver;
+}
+
+.ボタン_赤 {
+    background-color: lightcoral;
+}
+
+caption{
+    padding: 5px;
+}
+
+#成分2 {
+    background-color: lightyellow;
+}
+
+成分 th {
+    background-color: white;
+}
+
+要素 td {
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+}
