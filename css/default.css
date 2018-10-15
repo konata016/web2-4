@@ -17,7 +17,7 @@ body{
     margin-right:30px;
 }
 
-.サイズを合わせるやつ{
+.サイズを合わせるやつ:after{
     content:"";
     clear:both;
     display:block;
